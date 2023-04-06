@@ -14,6 +14,7 @@ export const ContextProvider = ({ children }) => {
 
   useEffect(() => {
     axios.get('https://jsonplaceholder.typicode.com/users')
+    
       .then(response => setData(response.data))
       .catch(error => console.log(error));
   }, []);

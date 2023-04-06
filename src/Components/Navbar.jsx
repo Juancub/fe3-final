@@ -16,7 +16,6 @@ const Navbar = () => {
     <nav >
       {/* Aqui deberan agregar los liks correspondientes a las rutas definidas */}
       <Link to="/">Home</Link>
-      <Link to="/dentist/:id">Dentista</Link>
       <Link to="/contact">Contacto</Link>
       <Link to="/favs">Destacado</Link>
       {/* Deberan implementar ademas la logica para cambiar de Theme con el button */}
