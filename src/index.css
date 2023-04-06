@@ -11,11 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.favButton{
-  background-color: rgba(136, 136, 136, 0.116);
-  padding: 10px;
-  border: none;
-  width: 100%;
+.isFav{
+  color: red;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.noFav {
+  color: rgb(253, 167, 167);
+  font-size: 1.5em;
   cursor: pointer;
 }
 
@@ -119,4 +123,8 @@ tr:nth-child(even) {
 }
 .dark > a {
   color: white;
+}
+
+img {
+  width: 100%;
 }
